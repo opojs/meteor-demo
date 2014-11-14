@@ -1,0 +1,26 @@
+<head>
+  <title>opoJS Meetup #2</title>
+</head>
+
+<body>
+  <div class="container">
+    {{> header}}
+    {{> talksList}}
+  </div>
+</body>
+
+<template name="header">
+  <h2>opoJS Meteor Demo</h2>
+  <hr/>
+</template>
+
+<template name="talksList">
+  <ul>
+    {{#each talks}}
+    <li>
+      <b>{{ title }}</b> by {{ speaker }} ({{ votes}} votes)
+      <input type="button" class="like" value="Like" />
+    </li>
+    {{/each}}
+  </ul>
+</template>

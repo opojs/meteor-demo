@@ -1,0 +1,4 @@
+Talks.insert({title: "KISS - Keep it smooth stupid", speaker: "André Cruz", votes:0});
+Talks.insert({title: "Web matters", speaker: "Marco Oliveira", votes:0});
+Talks.insert({title: "Meteor", speaker: "João Oliveira", votes:0});
+Talks.insert({title: "JScrambler", speaker: "Pedro Fortuna", votes:0});
